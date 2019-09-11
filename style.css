@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(211, 209, 209);
+    box-sizing: border-box;
+}
+.form-group{
+    padding-top: 40px;
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 50px 10px;
+    width: 600px;
+    max-width: 700px;
+}
+.details > input{
+   padding: 10px; 
+   display: block;
+   border-radius: 20px;
+   outline: none;
+   background: rgb(204, 198, 198);
+   border: 5px solid transparent;
+   margin-top: 10px;
+   width: 100%;
+}
+.details input::placeholder{
+    font-size: 15px;
+    color:rgb(85, 38, 38);
+}
+.details > input:hover{
+   background: rgb(160, 158, 158);
+}
+.details > input:focus{
+    border: 5px solid rgb(65, 145, 65);
+}
+.age{
+    display: flex;
+    max-width: 700px;
+    margin-top: 10px;
+}
+.age > input, select{
+    width: 80px;
+    border: 5px solid transparent;
+    background: rgb(204, 198, 198);
+    border-radius: 20px;
+    font-size: 15px;
+    color:rgb(85, 38, 38);
+    outline: none;
+    padding: 5px;
+}
+.age > input::placeholder{
+    color:rgb(85, 38, 38);    
+}
+.age > select{
+    width: 100%;
+    margin: 0px 10px;
+}
+.age input:hover{
+   background: rgb(160, 158, 158);
+}
+.age input:focus{
+    border: 5px solid rgb(65, 145, 65);
+}
+.age select:hover{
+   background: rgb(160, 158, 158);
+}
